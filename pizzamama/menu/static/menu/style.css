@@ -1,0 +1,94 @@
+/* DECLARATION DE VARIABLE POUR LES COULEURS*/
+:root{
+    --Orange:#DD7835;
+}
+
+*{
+    font-family: Arial, sans-serif;
+}
+
+/* STYLE DU  TITRE */
+h1{
+    font-size: 20px;
+    display: inline;
+    background:var(--Orange);
+    padding: 8px 22px;
+    text-shadow: 1px 1px 3px black;
+}
+
+/* STYLE DU CORPS DE LA PAGE */
+/* linear-gradient(0deg, rgba(255, 0, 150, 0.3) : PERMET DE POSITIONNER UN OVERLAY SUR L'IMAGE DE FOND. UN OVERLAY EST UNE
+ COULEUR OU IMAGE QU'ON MET EN SUPERPOSITION SUR UNE AUTRE*/
+
+body {
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/menu_background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* STYLE DES MARGES DU LOGO */
+#small_logo {
+    margin-top: 15px;
+    margin-left: 35px;
+}
+
+/* STYLE DES MARGES DU  TITRE */
+.menu_title {
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+/* STYLE DE MARGE SUR LE MENU DE PIZZA */
+.menu_list{
+    margin-left: 30px;
+}
+
+/* STYLE DES MARGES EXTERNES ENTRE LES NOMS DE PIZZA */
+.menu_list_item{
+    margin: 20px 0px;
+}
+
+/* STYLE DES NOMS DE PIZZA */
+.menu_list_title{
+    font-weight: bold;
+    font-size: 18px;
+    display:inline-block;
+    width: 460px;
+}
+
+/* STYLE DES PRIX*/
+.menu_list_price{
+    color: var(--Orange);
+    font-size: 18px;
+    margin-left: 10px;
+    width: 75px;
+    display:inline-block;
+    text-align: right;
+}
+
+/* STYLE DES INGREDIENTS DE PIZZA*/
+.menu_list_ingredient{
+    font-size: 11px;
+    color: #C8C8C8;
+    display:block;
+    width: 400px;
+}
+
+/* STYLE DU BADGE VEGETARIEN*/
+
+.badge_vegetarien{
+    font-size : 10px;
+    display: inline-block;
+    margin-top: 10px;
+    background-color: var(--Orange);
+    width: 80px;
+    padding: 5px;
+    color: black;
+    border-radius: 9px;
+    font-weight: bold;
+}
